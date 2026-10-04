@@ -93,3 +93,21 @@ padding: 10px;
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
+body {
+ /* Tus otros estilos... */
+ transition: background-color 0.5s ease, color 0.5s ease;
+ }
+
+
+ body.tema-oscuro {
+ background-color: #1a1a1a;
+ color: #f0f0f0;
+ }
+
+ /* Modifica también las tarjetas para que resalten en el fondo negro */
+ body.tema-oscuro .card {
+ background-color: #2c2c2c;
+ color: white;
+ border: 1px solid #444;
+ }
